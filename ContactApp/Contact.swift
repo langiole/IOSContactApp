@@ -16,15 +16,6 @@ class Contact: NSObject {
     private var email: String!              // (optional) user's email
     private var nickname: String!           // (optional) user's nickname
     
-    override init() {
-        self.firstName = "Jordan"
-        self.lastName = "Barkley"
-        self.phoneNumber = "012-345-6789"
-        self.email = "jordan@example.com"
-        self.nickname = "Jobin"
-        print("Use a different initializer!")
-    }
-    
     init(firstName: String!, lastName: String!, phoneNumber: String!, email: String!, nickname: String!) {
         self.firstName = firstName
         self.lastName = lastName

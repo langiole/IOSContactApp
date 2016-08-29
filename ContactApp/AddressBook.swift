@@ -14,13 +14,6 @@ class AddressBook: NSObject {
     private var groupName: String!      // (required) the group's name
     private var password: String!       // (required) the group's password
     
-    override init() {
-        contacts = []
-        groupName = "Lambda Chi Alpha - Psi Zeta (Purdue)"
-        password = "zbtSucks123"
-        print("Use a different initializer!")
-    }
-    
     init(contacts: [Contact], groupName: String!, password: String!) {
         self.contacts = contacts
         self.groupName = groupName
