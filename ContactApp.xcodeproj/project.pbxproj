@@ -193,7 +193,7 @@
 				TargetAttributes = {
 					FBD5B5E11D73A6120097C5D7 = {
 						CreatedOnToolsVersion = 7.3.1;
-						DevelopmentTeam = B7M7SN6P8B;
+						DevelopmentTeam = 8476R2BK96;
 					};
 					FBD5B5F51D73A6130097C5D7 = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -404,6 +404,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = ContactApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Langio.ContactApp;
@@ -415,6 +416,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = ContactApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Langio.ContactApp;
