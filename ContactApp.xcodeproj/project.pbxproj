@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		FB05F6CF1D7493E4004B0B3D /* AddressBook.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB05F6CD1D7493E4004B0B3D /* AddressBook.swift */; };
 		FB05F6D01D7493E4004B0B3D /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB05F6CE1D7493E4004B0B3D /* Contact.swift */; };
+		FB05F6D21D751660004B0B3D /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB05F6D11D751660004B0B3D /* CustomTextField.swift */; };
 		FBD5B5E61D73A6120097C5D7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBD5B5E51D73A6120097C5D7 /* AppDelegate.swift */; };
 		FBD5B5E81D73A6120097C5D7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBD5B5E71D73A6120097C5D7 /* ViewController.swift */; };
 		FBD5B5EB1D73A6130097C5D7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBD5B5E91D73A6130097C5D7 /* Main.storyboard */; };
@@ -38,6 +39,7 @@
 /* Begin PBXFileReference section */
 		FB05F6CD1D7493E4004B0B3D /* AddressBook.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddressBook.swift; sourceTree = "<group>"; };
 		FB05F6CE1D7493E4004B0B3D /* Contact.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Contact.swift; sourceTree = "<group>"; };
+		FB05F6D11D751660004B0B3D /* CustomTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
 		FBD5B5E21D73A6120097C5D7 /* ContactApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ContactApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBD5B5E51D73A6120097C5D7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FBD5B5E71D73A6120097C5D7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -109,6 +111,7 @@
 				FBD5B5EC1D73A6130097C5D7 /* Assets.xcassets */,
 				FBD5B5EE1D73A6130097C5D7 /* LaunchScreen.storyboard */,
 				FBD5B5F11D73A6130097C5D7 /* Info.plist */,
+				FB05F6D11D751660004B0B3D /* CustomTextField.swift */,
 			);
 			path = ContactApp;
 			sourceTree = "<group>";
@@ -269,6 +272,7 @@
 				FB05F6CF1D7493E4004B0B3D /* AddressBook.swift in Sources */,
 				FBD5B5E81D73A6120097C5D7 /* ViewController.swift in Sources */,
 				FBD5B5E61D73A6120097C5D7 /* AppDelegate.swift in Sources */,
+				FB05F6D21D751660004B0B3D /* CustomTextField.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
